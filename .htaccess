@@ -1,0 +1,22 @@
+# authType basic
+# authName "Login first"
+# authUserFile /var/www/html/apache2_labs/lab_1/.htpass
+# require valid-user
+
+
+# <FilesMatch "\.pdf$">
+# authType basic
+# authName "Login first"
+# authUserFile /var/www/html/apache2_labs/lab_1/.htpass
+# require valid-user
+# </FilesMatch>
+
+# <Directory /var/www/html >
+#     Deny from all
+#     Allow from 192.168.1.4
+#     Order Deny,Allow
+# </Directory>
+
+
+
+# Redirect "/apache2_labs/lab_1/page1.html" "/apache2_labs/lab_1/page2.html"
